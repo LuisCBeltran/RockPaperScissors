@@ -1,0 +1,59 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main {
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructions {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    padding-top: 15px;
+}
+
+i {
+    padding: 10px 20px;
+}
+
+.fa-solid {
+    height: auto;
+    width: auto;
+    font-size: 70px;
+}
+
+.cpupick {
+    width: 100%;
+}
+
+.cpupicktext {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.cpupickimg {
+    display: flex;
+    justify-content: center;
+}
