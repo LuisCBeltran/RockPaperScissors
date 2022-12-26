@@ -44,6 +44,14 @@ i {
     font-size: 70px;
 }
 
+.fa-solid:hover {
+    cursor: pointer;
+}
+
+.fa-solid:active {
+    color: darkgray;
+}
+
 .cpupick {
     width: 100%;
 }
