@@ -15,15 +15,17 @@
             <p class="instructions">Choose one:</p>
         </div>
         <div class="buttons">
-            <i class="fa-solid fa-hand-fist"></i>
-            <i class="fa-solid fa-hand"></i>
-            <i class="fa-solid fa-hand-scissors"></i>
+            <i class="fa-solid fa-hand-fist" id="rock" onclick="rock(1)"></i>
+            <i class="fa-solid fa-hand" id="paper" onclick="paper(2)"></i>
+            <i class="fa-solid fa-hand-scissors" id="scissors" onclick="scissors(3)"></i>
         </div>
         <div class="cpupick">
             <p class="cpupicktext">My pick:</p>
-            <div class="cpupickimg">
+            <div class="cpupickimg" id="cpupickimg">
                 <i class="fa-solid fa-hand-spock"></i>
             </div>
+            <p class="result">Result:</p>
+            <p class="resulttext">YOU WIN!</p>
         </div>
     </div>
     <script src="script.js"></script>
